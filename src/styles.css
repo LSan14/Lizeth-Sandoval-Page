@@ -8,12 +8,30 @@ body {
   background: gray;
 }
 
-h1 {
-  font-size: 58px;
+.hero {
+  font-family: "Quicksand", sans-serif;
   text-align: center;
+  margin-top: 100px;
 }
 
-h2 {
+.hero h1 {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.hero h2 {
   font-size: 38px;
-  text-align: center;
+}
+
+.hero a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary {
+  padding: 15px;
+  background-color: #f95959;
+  border-radius: 10%;
 }
