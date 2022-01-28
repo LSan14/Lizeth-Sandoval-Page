@@ -49,3 +49,7 @@ body {
   border-radius: 7%;
   box-shadow: var(--box-shadow);
 }
+
+.md-3 {
+  font-weight: bold;
+}
