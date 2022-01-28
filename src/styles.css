@@ -17,21 +17,25 @@ body {
 .hero h1 {
   font-size: 58px;
   font-weight: bold;
+  padding: 5px;
 }
 
 .hero h2 {
   font-size: 38px;
+  padding: 5px;
 }
 
 .hero a {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-.btn-primary {
+.btn-light {
   padding: 15px;
   background-color: #f95959;
   border-radius: 10%;
+  margin-top: 50px;
+  border: 1px solid black;
 }
