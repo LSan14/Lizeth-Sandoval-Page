@@ -16,7 +16,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 58px;
+  font-size: 60px;
   font-weight: bold;
   padding: 5px;
   margin: 20px;
@@ -29,17 +29,18 @@ body {
 }
 
 .btn-light {
-  padding: 15px;
+  padding: 10px;
   background-color: #f95959;
   border-radius: 10%;
-  margin-top: 50px;
+
   border: 1px solid black;
 }
 
 .btn-light a {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 50px;
   color: black;
 }
 
