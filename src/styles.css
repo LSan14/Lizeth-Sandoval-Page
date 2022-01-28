@@ -7,10 +7,10 @@
 
 body {
   background: var(--gradient);
+  font-family: "Dongle", sans-serif;
 }
 
 .hero {
-  font-family: "Quicksand", sans-serif;
   text-align: center;
   margin: 100px;
 }
