@@ -1,15 +1,37 @@
 :root {
   --primary-color: #f95959;
   --secondary-color: #455d7a;
-  --gradient: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  --gradient: linear-gradient(
+    110.6deg,
+    rgb(156, 116, 129) -18.3%,
+    rgb(67, 54, 74) 16.4%,
+    rgb(47, 48, 67) 68.2%,
+    rgb(27, 23, 36) 99.1%
+  );
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   background: var(--gradient);
-  font-family: "Dongle", sans-serif;
+  font-family: "Comforter", cursive;
+  color: aliceblue;
 }
 
+h3 {
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 28px;
+}
+
+.catcontainer {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.catcat {
+  margin-bottom: 2px;
+  padding: 2px;
+  border: 1px solid var(--primary-color);
+}
 .hero {
   text-align: center;
   margin: 100px;
@@ -26,6 +48,29 @@ body {
   font-size: 35px;
   padding: 5px;
   margin: 20px;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.hero-box-2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hero-box-3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.phone,
+.email,
+.social {
+  margin: 0;
 }
 
 .btn-light {
