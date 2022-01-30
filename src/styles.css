@@ -104,3 +104,9 @@ h3 {
 .md-3 {
   font-weight: bold;
 }
+
+@media (max-width: 900px) {
+  .video-p {
+    font-size: 20px;
+  }
+}
