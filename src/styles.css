@@ -106,7 +106,22 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  body {
+    max-width: none;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+  }
   .video-p {
     font-size: 20px;
   }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: antiquewhite;
 }
