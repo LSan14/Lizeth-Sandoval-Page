@@ -22,14 +22,19 @@ h3 {
   padding: 20px;
   font-size: 28px;
 }
+
+a {
+  color: var(--primary-color);
+}
 .row-cat {
   margin: 100px 100px;
 }
 
 .box-container,
+.hero-container,
 .container-contact {
   margin: 0;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .hero-container h1 {
@@ -132,24 +137,18 @@ h3 {
   color: black;
 }
 
-.img-fluid {
-  border: 1px solid black;
-  border-radius: 7%;
-  box-shadow: var(--box-shadow);
-}
-
 .md-3 {
   font-weight: bold;
-}
-
-footer {
-  margin-top: 100px;
-  background-color: rgba(205, 188, 188, 0.187);
 }
 
 .contact {
   margin-top: 310px;
 }
+footer {
+  margin-top: 100px;
+  background-color: rgba(205, 188, 188, 0.187);
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -177,6 +176,6 @@ footer.social-links:hover {
     font-size: 20px;
   }
   .footer {
-    margin-top: 310px;
+    margin-top: 200px;
   }
 }
