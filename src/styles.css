@@ -24,7 +24,7 @@ h3 {
 }
 
 a {
-  color: var(--primary-color);
+  color: black;
 }
 .row-cat {
   margin: 100px 100px;
@@ -141,26 +141,25 @@ a {
   font-weight: bold;
 }
 
-.contact {
-  margin-top: 310px;
-}
 footer {
-  margin-top: 100px;
-  background-color: rgba(205, 188, 188, 0.187);
+  display: flex;
+  justify-content: right;
 }
 
-footer .email-link {
+footer .email-link,
+footer .mail,
+footer .social-links,
+footer .mail {
+  padding: 0 5px 0 5px;
   text-decoration: none;
-  color: black;
   font-weight: bold;
   font-size: 24px;
 }
 
-footer .email-link:hover {
-  color: var(--primary-color);
-}
-
-footer.social-links:hover {
+footer .email-link:hover,
+footer .mail:hover,
+footer .social-links:hover,
+footer .mail:hover {
   color: var(--primary-color);
 }
 
@@ -175,7 +174,9 @@ footer.social-links:hover {
   .video-p {
     font-size: 20px;
   }
-  .footer {
+
+  footer {
     margin-top: 200px;
+    background-color: rgba(205, 188, 188, 0.187);
   }
 }
